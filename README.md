@@ -36,7 +36,6 @@ fetch_data_from_file() - This function takes file path as the parameter. This fu
 
 format_data() - This function takes a list of items as the parameter. This function extracts the each item from the list and processes the data to return the information in the relevant thorn seperated format list where each item in the list is a thorn seperated string
 
-extract_nature_and_ori() - This function takes the raw incident string and a starting index as the parameter and parses the nature of the incident and the ori number from the raw incident string. The starting index is used to parse the nature of the incident from the raw incident string. Finally, the function returns two strings - nature of the incidents, and ori number.
 
 print_items() - This function takes a list as parameter and prints each string in the list to the console
 
